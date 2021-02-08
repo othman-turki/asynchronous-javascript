@@ -103,7 +103,7 @@
 // 5.   Async - await (with Fetch API)
 // ********************************************************************************
 const getTodos = async () => {
-  const res = await fetch('todos/luigis.json')
+  const res = await fetch('todos/luigi.json')
 
   if (res.status !== 200) {
     throw new Error('Cannot fetch the data')
